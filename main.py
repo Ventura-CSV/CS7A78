@@ -1,14 +1,23 @@
+def hasARE(words):
+    """
+    ########################################
+    Code Your Program here
+    ########################################
+    """
+    are = ['a', 'r', 'e']
+
+
 def main():
 
-    words = input('Enter the list: ').split()
+    words = ['are', 'arrow', 'amore', 'aspire', 'assertive', 'arrogant', 'bartender', 'carter']
     are = ['a', 'r', 'e']
-    main.result = []
-    ##################################################
-    # Code your program here
-    ##################################################
+    ret = hasARE(words)
+    print(f'The result is: {ret}')
 
-    print(main.result)
-##
+    words = ['assertive', 'arrogant', 'bartender', 'carter', 'racer']
+    are = ['a', 'r', 'e']
+    ret = hasARE(words)
+    print(f'The result is: {ret}')
 
 
 if __name__ == '__main__':
